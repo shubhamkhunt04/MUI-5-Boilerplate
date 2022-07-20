@@ -1,6 +1,5 @@
-/**
- ** Hex color to RGBA color
- */
+// * Hex color to RGBA color
+
 export const hexToRGBA = (hexCode, opacity) => {
   let hex = hexCode.replace('#', '');
   if (hex.length === 3) {
