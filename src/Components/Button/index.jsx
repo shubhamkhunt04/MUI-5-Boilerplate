@@ -45,7 +45,12 @@ const Button = (props) => {
 
     // * enable-disable
     '&.Mui-disabled': {
-      backgroundColor: hexToRGBA(theme.palette.primary.main, 0.6),
+      backgroundColor: hexToRGBA(
+        props?.color === 'secondary'
+          ? theme.palette.secondary.main
+          : theme.palette.primary.main,
+        0.6
+      ),
       color: hexToRGBA(theme.palette.white, 0.6),
     },
   }));
