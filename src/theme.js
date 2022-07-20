@@ -1,3 +1,4 @@
+// * Mui Imports
 import { createTheme } from '@mui/material/styles';
 
 export const theme = createTheme({
@@ -10,5 +11,6 @@ export const theme = createTheme({
       main: '#93E5EE',
       dark: '#7BDDE8',
     },
+    white: '#ffffff',
   },
 });
